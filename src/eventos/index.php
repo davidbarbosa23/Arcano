@@ -1,0 +1,167 @@
+<?php
+$titlePlage = 'Encuentos Espirituales';
+require __DIR__ . '/../../app.php';
+include $path['inc'] . '/header.php';
+?>
+
+	<!-- =========== Banner ============= -->
+	<section class="hero esoteric">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hero-content p-5 m-5">
+					<div class="col-sm-12 col-md-8 col-lg-4 mx-auto pt-5">
+						<h2 class="text-center text-blue font-weight-normal featured-title">Un espacio que te invita a conectar con tu interior</h2>
+					</div>
+
+					<form action="calendar" method="get" class="col-sm-12 col-md-10 mx-auto">
+						<div class="form-group row pt-lg-5">
+							<div class="col-sm-12 col-md-5 offset-md-2">
+								<select name="search" class="selectpicker form-control mb-4" data-show-subtext="true" data-live-search="true">
+									<option data-subtext="" disabled="disabled">Categoría</option>
+									<option data-subtext="">Lírica</option>
+									<option data-subtext="">Narrativa</option>
+									<option data-subtext="">Drama</option>
+									<option data-subtext="">Novela</option>
+									<option data-subtext="">Romántica</option>
+								</select>
+							</div>
+							<div class="col-sm-12 col-md-3">
+								<button type="submit" class="btn btn-primary btn-block bg-primary">Buscar</button>
+							</div>
+						</div>
+					</form>
+
+					<div class="col-12 pt-lg-5">
+						<a href="#" class="icon-display scroll-next scroll-bottom mx-auto"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- =========== Banner ============= -->
+
+	<!-- =========== Content ============= -->
+	<section class="listed-events">
+		<div class="container">
+			<div class="row">
+				<div class="card-columns pt-5">
+					<div class="card">
+						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/01.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/03.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/05.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/06.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/07.jpg" alt="Card image cap">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- =========== Paginación ============= -->
+			<div class="row">
+				<div class="col-12">
+					<nav aria-label="Categories navigation">
+						<ul class="pagination pagination-lg justify-content-center mb-5">
+							<li class="page-item previous disabled">
+								<a class="page-link" href="#" tabindex="-1"><</a>
+							</li>
+							<li class="page-item active"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item next">
+								<a class="page-link" href="#">></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- =========== Content ============= -->
+
+	<!-- ========= Librería =========== -->
+	<section class="hero events">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="hero-content p-4 m-5">
+					<div class="col-sm-12 col-md-8 col-lg-4 mx-auto">
+						<h1 class="text-center font-weight-normal text-lighter featured-title">Librería El Arcano</h1>
+					</div>
+					<div class="col-12 mx-auto pt-lg-4">
+						<h4 class="text-center font-weight-normal text-lighter">Encuentra aquí nuestra colección de libros para ti</h4>
+					</div>
+					<div class="col-12 pt-lg-4 text-center">
+						<a href="<?= $uri['book'] ?>/" class="btn btn-primary bg-teal">Librería</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ========= Librería =========== -->
+
+	<!-- ============ Frases ============== -->
+	<section class="quotes">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-5 mt-3 mt-md-5 mt-xl-0 ">
+					<img src="<?= $uri['root'] ?>/assets/img/img_bambu.jpg" class="img-fluid" alt="Frases">
+				</div>
+				<div class="col-sm-12 col-md-6 mt-3 mt-md-5 mt-xl-6 ">
+					<div class="slider quotes-content">
+						<div class="quotes-item">
+							<img src="<?= $uri['root'] ?>/assets/img/icon/icon_frases.png" class="img-fluid" alt="Icono Frases">
+							<p class="text-blue font-weight-normal text-light">Cuanto más te conoces, más claridad hay. El autoconocimiento no tiene final -no alcanzas un logro, no llegas a una conclusión. Es un río sin final.</p>
+							<h5 class="text-blue">- Anonimo -</h5>
+						</div>
+						<div class="quotes-item">
+							<img src="<?= $uri['root'] ?>/assets/img/icon/icon_frases.png" class="img-fluid" alt="Icono Frases">
+							<p class="text-blue font-weight-normal text-light">Cuanto más te conoces, más claridad hay. El autoconocimiento no tiene final -no alcanzas un logro, no llegas a una conclusión. Es un río sin final.</p>
+							<h5 class="text-blue">- Anonimo -</h5>
+						</div>
+						<div class="quotes-item">
+							<img src="<?= $uri['root'] ?>/assets/img/icon/icon_frases.png" class="img-fluid" alt="Icono Frases">
+							<p class="text-blue font-weight-normal text-light">Cuanto más te conoces, más claridad hay. El autoconocimiento no tiene final -no alcanzas un logro, no llegas a una conclusión. Es un río sin final.</p>
+							<h5 class="text-blue">- Anonimo -</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ============ Frases ============== -->
+
+	<?php include $path['inc'] . '/subscription.php'; ?>
+
+	<?php include $path['inc'] . '/footer.php'; ?>
