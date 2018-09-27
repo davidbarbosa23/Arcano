@@ -13,24 +13,6 @@ include $path['inc'] . '/header.php';
 						<h2 class="text-center text-blue font-weight-normal featured-title">Un espacio que te invita a conectar con tu interior</h2>
 					</div>
 
-					<form action="calendar" method="get" class="col-sm-12 col-md-10 mx-auto">
-						<div class="form-group row pt-lg-5">
-							<div class="col-sm-12 col-md-5 offset-md-2">
-								<select name="search" class="selectpicker form-control mb-4" data-show-subtext="true" data-live-search="true">
-									<option data-subtext="" disabled="disabled">Categoría</option>
-									<option data-subtext="">Lírica</option>
-									<option data-subtext="">Narrativa</option>
-									<option data-subtext="">Drama</option>
-									<option data-subtext="">Novela</option>
-									<option data-subtext="">Romántica</option>
-								</select>
-							</div>
-							<div class="col-sm-12 col-md-3">
-								<button type="submit" class="btn btn-primary btn-block bg-primary">Buscar</button>
-							</div>
-						</div>
-					</form>
-
 					<div class="col-12 pt-lg-5">
 						<a href="#" class="icon-display scroll-next scroll-bottom mx-auto"></a>
 					</div>
