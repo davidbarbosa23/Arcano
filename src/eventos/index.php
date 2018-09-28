@@ -9,11 +9,11 @@ include $path['inc'] . '/header.php';
 		<div class="container-fluid">
 			<div class="row">
 				<div class="hero-content p-5 m-5">
-					<div class="col-sm-12 col-md-8 col-lg-4 mx-auto pt-5">
-						<h2 class="text-center text-blue font-weight-normal featured-title">Un espacio que te invita a conectar con tu interior</h2>
+					<div class="col-sm-12 col-md-8 col-lg-4 mx-auto pt-4">
+						<h2 class="text-center text-white font-weight-normal featured-title">Un espacio que te invita a conectar con tu interior</h2>
 					</div>
 
-					<div class="col-12 pt-lg-5">
+					<div class="col-12 pt-lg-4">
 						<a href="#" class="icon-display scroll-next scroll-bottom mx-auto"></a>
 					</div>
 				</div>
@@ -27,46 +27,58 @@ include $path['inc'] . '/header.php';
 		<div class="container">
 			<div class="row">
 				<div class="card-columns pt-5">
-					<div class="card">
-						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/01.jpg" alt="Card image cap">
+					<a href="<?= $uri['events'] ?>/item" class="card img">
+						<img class="card-img-top mx-auto" src="<?= $uri['root'] ?>/assets/img/events/01.jpg" alt="Card image cap">
+						<span class="tag events">Eventos</span>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<h5 class="card-title">Título</h5>
+							<p class="card-text extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore.</p>
+							<p class="card-text text-right"><small class="text-muted"><i><img src="<?= $uri['root'] ?>/assets/img/icon/clock.svg" alt=""></i> 30 de septiembre de 2018</small></p>
 						</div>
-					</div>
-					<div class="card">
+					</a>
+					<a href="<?= $uri['events'] ?>/item" class="card img">
 						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/03.jpg" alt="Card image cap">
+						<span class="tag events">Eventos</span>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<h5 class="card-title">Título</h5>
+							<p class="card-text extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore.</p>
+							<p class="card-text text-right"><small class="text-muted"><i><img src="<?= $uri['root'] ?>/assets/img/icon/clock.svg" alt=""></i> 30 de septiembre de 2018</small></p>
 						</div>
-					</div>
-					<div class="card">
+					</a>
+					<a href="<?= $uri['events'] ?>/item" class="card img">
 						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/05.jpg" alt="Card image cap">
+						<span class="tag news">Noticias</span>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<h5 class="card-title">Título</h5>
+							<p class="card-text extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore.</p>
+							<p class="card-text text-right"><small class="text-muted">30 de septiembre de 2018</small></p>
 						</div>
-					</div>
-					<div class="card">
+					</a>
+					<a href="<?= $uri['events'] ?>/item" class="card img">
 						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/06.jpg" alt="Card image cap">
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<h5 class="card-title">Título</h5>
+							<p class="card-text extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore.</p>
+							<p class="card-text text-right"><small class="text-muted">30 de septiembre de 2018</small></p>
 						</div>
-					</div>
-					<div class="card">
-						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/07.jpg" alt="Card image cap">
+					</a>
+					<a href="<?= $uri['events'] ?>/item" class="card">
+						<span class="tag events">Eventos</span>
 						<div class="card-body">
-							<h5 class="card-title">Card title</h5>
-							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-							<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+							<h5 class="card-title">Título</h5>
+							<p class="card-text extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore.</p>
+							<p class="card-text text-right"><small class="text-muted"><i><img src="<?= $uri['root'] ?>/assets/img/icon/clock.svg" alt=""></i> 30 de septiembre de 2018</small></p>
 						</div>
-					</div>
+					</a>
+					<a href="<?= $uri['events'] ?>/item" class="card img">
+						<img class="card-img-top" src="<?= $uri['root'] ?>/assets/img/events/07.jpg" alt="Card image cap">
+						<span class="tag news">Noticias</span>
+						<div class="card-body">
+							<h5 class="card-title">Título</h5>
+							<p class="card-text extract">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, dolore.</p>
+							<p class="card-text text-right"><small class="text-muted"><i><img src="<?= $uri['root'] ?>/assets/img/icon/clock.svg" alt=""></i> 30 de septiembre de 2018</small></p>
+						</div>
+					</a>
 				</div>
 			</div>
 
@@ -118,7 +130,7 @@ include $path['inc'] . '/header.php';
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-5 mt-3 mt-md-5 mt-xl-0 ">
-					<img src="<?= $uri['root'] ?>/assets/img/img_bambu.jpg" class="img-fluid" alt="Frases">
+					<img src="<?= $uri['root'] ?>/assets/img/img_guijarros.jpg" class="img-fluid" alt="Frases">
 				</div>
 				<div class="col-sm-12 col-md-6 mt-3 mt-md-5 mt-xl-6 ">
 					<div class="slider quotes-content">
